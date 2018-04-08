@@ -13,9 +13,9 @@ describe('Test cases for fizzbuzz program', () => {
     expect(fizzbuzz(20)).to.equal('buzz');
   });
   it('should return fizzbuzz if number is a multiple of 3 and 5', () => {
-    expect(fizzbuzz(15)).to.equal('buzz');
-    expect(fizzbuzz(30)).to.equal('buzz');
-    expect(fizzbuzz(45)).to.equal('buzz');
+    expect(fizzbuzz(15)).to.equal('fizzbuzz');
+    expect(fizzbuzz(30)).to.equal('fizzbuzz');
+    expect(fizzbuzz(45)).to.equal('fizzbuzz');
   });
   it('should return number if number is not a multiple of 3 or 5', () => {
     expect(fizzbuzz(1)).to.equal(1);
